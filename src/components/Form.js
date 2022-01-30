@@ -95,6 +95,8 @@ export default function Form() {
           type="text"
         />
 
+        <br />
+
         <label className="label">Email</label>
         <input
           onChange={handleEmail}
@@ -103,6 +105,8 @@ export default function Form() {
           type="email"
         />
 
+        <br />
+
         <label className="label">Password</label>
         <input
           onChange={handlePassword}
@@ -110,6 +114,8 @@ export default function Form() {
           value={password}
           type="password"
         />
+
+        <br />
 
         <button onClick={handleSubmit} className="btn" type="submit">
           Submit
